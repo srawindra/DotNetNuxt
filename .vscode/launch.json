@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "C#: DotNetNuxt",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/DotNetNuxt.csproj",
+      "launchConfigurationId": "TargetFramework=;DotNetNuxt"
+    }
+  ]
+}
