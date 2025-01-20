@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   devServer: { host: "localhost" },
   nitro: {
     devProxy: {
-      "/_": {
-        target: "https://localhost:5001/_",
+      "/api": {
+        target: "https://localhost:5001/api",
         changeOrigin: true,
         secure: false,
       },
